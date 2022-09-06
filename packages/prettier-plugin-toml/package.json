@@ -1,6 +1,6 @@
 {
   "name": "@voltiso/prettier-plugin-toml",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "TOML Prettier Plugin",
   "keywords": [
     "toml",
@@ -16,7 +16,7 @@
     "@toml-tools/parser": "^0.3.1"
   },
   "peerDependencies": {
-    "prettier": "^1.16.0"
+    "prettier": "^2 || ^1.16.0"
   },
   "scripts": {
     "test": "mocha ./test/**/*spec.js"
